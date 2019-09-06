@@ -116,7 +116,7 @@ a:active,a:hover {
 h1 {
 	font-size:2em;
 	margin:0.67em 0;
-	color:maroon;
+	color:black;
 }
 h2 {
 	font-size:1.5em;
@@ -124,7 +124,7 @@ h2 {
 
 }
 h3 {
-	font-size:1.17em;
+	font-size:3.17em;
 	margin:1em 0;
 }
 h4 {
@@ -454,8 +454,8 @@ table {
 }
 /* ==========================================================================Hero========================================================================== */
 .hero {
-	background: url('../img/headerr.jpeg') center no-repeat;
-	background-size: auto;
+	background: url('../img/IMG_7833.JPG') center no-repeat;
+	background-size: contain;
 	padding:110px 0 100px 0;
 	height:600px;
 	background-color: #FBFBFB;
@@ -469,11 +469,13 @@ table {
 	text-transform: uppercase;
 }
 .hero h1 span {
-	color:#a1a9b0;
+	color:black;
+  margin-left: 10px;
 	/* display:inline-block; */
 }
 .hero h3 {
-	font-size: 20px;
+	font-size: 30px;
+  font-weight: bold;
 	margin:0;
 	padding:0;
 	opacity:0.5;
